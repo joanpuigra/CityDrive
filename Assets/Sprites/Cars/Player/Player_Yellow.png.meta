@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3af51c7112c94da68b7c13602cb1a0b
+guid: 3437790386a724bea89fa42034fc13ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,12 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: POLICE_Burnt_Right
+      name: Player_Yellow_Right
       rect:
         serializedVersion: 2
         x: 9
-        y: 228
-        width: 84
+        y: 226
+        width: 83
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -111,145 +111,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f41fa21ab756a456a8c430cb46e08615
-      internalID: -174995570
+      spriteID: 9d3d4ac12b2054201a1dbb1182e0eb35
+      internalID: -527856694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLICE_Burnt_DownRight
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 212
-        width: 72
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8998e5a4336f94bb4ad8512bcdb2ec46
-      internalID: -1803488909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_Down
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 211
-        width: 37
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1065e0aa45e0d4e1f8d93a163720d3a4
-      internalID: -2067939855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_DownLeft
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 112
-        width: 71
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a85485cc5d084f44a1b46849c9187f4
-      internalID: -648907263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_Left
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 128
-        width: 84
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52881d78bdcdb44dcbefb21ea7598ac4
-      internalID: -1204744436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_TopLeft
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 113
-        width: 72
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96d749806ca6e40048f88acfaa514eea
-      internalID: -2038727555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_Top
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 13
-        width: 37
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4afdfee29093945c187fa91ffd260edf
-      internalID: -640753017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLICE_Burnt_TopRight
+      name: Player_Yellow_BottomRight
       rect:
         serializedVersion: 2
         x: 115
-        y: 12
-        width: 71
+        y: 215
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8137816df9b724f60979f950fd280d98
+      internalID: -572529360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_Bottom
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 212
+        width: 42
         height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -258,8 +153,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6550cfac0f4be4b9dabf145c8f0c1ec8
-      internalID: -2130986425
+      spriteID: 40e9a5ee3f84b4a9699ca2937c4a8c1a
+      internalID: -1772476946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 115
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26065c2b3ac3f41d79f015d4c678b82a
+      internalID: -1478539514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_Left
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 83
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b8e4b5f2cbe4bc8a3d70e3e65f74f2
+      internalID: 396911469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 115
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3d587a50614ae9bf4c1c376cde070
+      internalID: -52444623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_Top
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 14
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f96eb095cf4ce798f4416b7b14454
+      internalID: -1495213315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Yellow_TopRight
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 14
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d139101d489c47028c4c29099706fe4
+      internalID: 829827301
       vertices: []
       indices: 
       edges: []
@@ -275,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      POLICE_Burnt_Down: -2067939855
-      POLICE_Burnt_DownLeft: -648907263
-      POLICE_Burnt_DownRight: -1803488909
-      POLICE_Burnt_Left: -1204744436
-      POLICE_Burnt_Right: -174995570
-      POLICE_Burnt_Top: -640753017
-      POLICE_Burnt_TopLeft: -2038727555
-      POLICE_Burnt_TopRight: -2130986425
+      Player_Yellow_Bottom: -1772476946
+      Player_Yellow_BottomLeft: -1478539514
+      Player_Yellow_BottomRight: -572529360
+      Player_Yellow_Left: 396911469
+      Player_Yellow_Right: -527856694
+      Player_Yellow_Top: -1495213315
+      Player_Yellow_TopLeft: -52444623
+      Player_Yellow_TopRight: 829827301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

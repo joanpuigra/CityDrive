@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CityDrive.sln"
+    "dotnet.defaultSolution": "CityDrive.sln",
+    "cSpell.words": [
+        "Behaviour",
+        "rigidbody"
+    ]
 }
