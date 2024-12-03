@@ -30,7 +30,7 @@ public class Police : MonoBehaviour
 
         if (health <= 0)
         {
-            policeIsDead();
+            PoliceIsDead();
             return;
         }
 
@@ -50,8 +50,8 @@ public class Police : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // collision.gameObject.GetComponent<Player>().health -= 20f;
-            // Debug.Log("Player health: " + collision.gameObject.GetComponent<Player>().health);
+            collision.gameObject.GetComponent<Player>().health -= 20f;
+            Debug.Log("Player health: " + collision.gameObject.GetComponent<Player>().health);
         }
     }
 
@@ -73,7 +73,7 @@ public class Police : MonoBehaviour
         transform.Translate(speed * Time.deltaTime * directionToPlayer);
     }
 
-    private void policeIsDead()
+    private void PoliceIsDead()
     {
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         animator.SetTrigger("isDead");

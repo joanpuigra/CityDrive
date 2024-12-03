@@ -24,10 +24,18 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        HandleInput();
-        MovePlayer();
+        if (health <= 0)
+        {
+            PlayerIsDead();
+            return;
+        }
+        else
+        {
+            HandleInput();
+            MovePlayer();
+        }
+        
         UpdateAnimations();
-        // PlayerHealth();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -62,15 +70,6 @@ public class Player : MonoBehaviour
         animator.SetBool("isLeft", input.x < -threshold);
         animator.SetBool("isUp", input.y > threshold);
         animator.SetBool("isDown", input.y < -threshold);
-    }
-
-    private void PlayerHealth()
-    {
-        if (health <= 0)
-        {
-            PlayerIsDead();
-            return;
-        }
     }
 
     private void PlayerIsDead()
