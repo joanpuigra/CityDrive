@@ -9,6 +9,5 @@ public class FollowTarget : MonoBehaviour
     {
         transform.position = target.position + offset;
         transform.LookAt(target);
-        
     }
 }

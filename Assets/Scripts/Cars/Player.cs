@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Police"))
         {
-            collision.gameObject.GetComponent<Police>().health -= 20f;
+            collision.gameObject.GetComponent<Police>().health -= 35f;
             Debug.Log("Police health: " + collision.gameObject.GetComponent<Police>().health);
             collision.gameObject.GetComponent<Police>().transform.localPosition -= collision.gameObject.GetComponent<Police>().directionToPlayer * 0.5f;
             StartCoroutine(PoliceWait(collision.gameObject.GetComponent<Police>()));
@@ -68,10 +68,14 @@ public class Player : MonoBehaviour
     {
         if (health <= 0)
         {
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-            // GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("PLAYER_Burnt_Top");
-            // // enabled = false;
+            PlayerIsDead();
             return;
         }
+    }
+
+    private void PlayerIsDead()
+    {
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        animator.SetTrigger("isDead");
     }
 }
