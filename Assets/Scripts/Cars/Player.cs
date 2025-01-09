@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
             HandleInput();
             MovePlayer();
         }
-        
+
         UpdateAnimations();
     }
 
