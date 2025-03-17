@@ -1,6 +1,6 @@
 # CityDrive
 
-This game is created for a **School Project** made in *Unity*, i will update this to a full "game" to learn and make a **Portfolio**.
+This game is created for a **School Project** made in *Unity*.
 
 Inspired by the first GTA games, top-down sandbox city driving while being chased by the police.
 
